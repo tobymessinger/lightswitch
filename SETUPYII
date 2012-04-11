@@ -1,0 +1,19 @@
+Installing Yii via command-line:
+
+(example installation instructions)
+cd ~
+wget http://yii.googlecode.com/files/yii-1.1.10.r3566.tar.gz
+tar -zxvf yii-1.1.10.r3566.tar.gz
+rm yii-1.1.10.r3566.tar.gz
+cp yii-1.1.10.r3566 yii
+cd /var/www/lightswitch
+~/yii/framework/yiic webapp .
+
+Notes: these instructions are for the version of Yii that was available at the time of writing. 
+Check on the Yii website (http://www.yiiframework.com) for the latest version of Yii and replace the address and filename as necessary.
+
+The above will install the Yii framework into your home directory (~).
+
+You can then access the basic application via http://<ip_of_this_machine>/lightswitch
+
+--Your dear friend Shea
